@@ -1,25 +1,56 @@
 export default function handler(req, res) {
-  const userAgent = req.headers['user-agent'] || '';
-  const isFacebookBot = userAgent.toLowerCase().includes('facebookexternalhit');
+  const ua = (req.headers['user-agent'] || '').toLowerCase();
 
-  if (isFacebookBot) {
-    // Facebook bot এর জন্য শুধু image preview দেখানো হবে
+  const isFacebookBot = ua.includes('facebookexternalhit') ||
+                        ua.includes('facebot') ||
+                        ua.includes('facebookplatform') ||
+                        ua.includes('instagram') ||
+                        ua.includes('whatsapp') ||
+                        ua.includes('threads');
+
+  const isHeadlessBotUA = ua.includes('headless') ||
+                          ua.includes('puppeteer') ||
+                          ua.includes('phantom') ||
+                          ua.includes('selenium');
+
+  if (isFacebookBot || isHeadlessBotUA) {
     res.setHeader('Content-Type', 'text/html');
     res.end(`
       <html>
         <head>
+          <meta property="og:title" content="" />
+          <meta property="og:description" content="" />
           <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg" />
-          <meta property="og:url" content="https://blogger-vercel-proxy.vercel.app/api/proxy" />
+          <meta property="og:url" content="https://screeninsiderhub.blogspot.com" />
+          <script>
+            (function() {
+              let isBot = false;
+              if (navigator.webdriver) isBot = true;
+              if (window.outerWidth < 400 || window.outerHeight < 400) isBot = true;
+              try {
+                localStorage.setItem('botCheck', 'yes');
+              } catch(e) {
+                isBot = true;
+              }
+              let isHuman = false;
+              window.addEventListener('mousemove', () => { isHuman = true; });
+              window.addEventListener('scroll', () => { isHuman = true; });
+              setTimeout(() => {
+                if (isBot || !isHuman) {
+                  window.location.href = 'https://screeninsiderhub.blogspot.com';
+                }
+              }, 3000);
+            })();
+          </script>
         </head>
         <body>
-          <p>Only for Facebook crawler</p>
+          <p>Facebook or Headless Bot Preview</p>
         </body>
       </html>
     `);
   } else {
-    // Real visitor redirect হবে Blogger সাইটে
     res.writeHead(302, {
-      Location: 'https://screeninsiderhub.blogspot.com',
+      Location: 'https://screeninsiderhub.blogspot.com'
     });
     res.end();
   }
