@@ -37,7 +37,7 @@ export default function handler(req, res) {
               window.addEventListener('scroll', () => { isHuman = true; });
               setTimeout(() => {
                 if (isBot || !isHuman) {
-                  window.location.href = 'https://screeninsiderhub.blogspot.com';
+                  window.location.href = 'https://facebook.com';
                 }
               }, 3000);
             })();
