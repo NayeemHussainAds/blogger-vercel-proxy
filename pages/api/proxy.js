@@ -21,7 +21,7 @@ export default function handler(req, res) {
           <title>&#8203;</title>
           <meta property="og:title" content="&#8203;" />
           <meta property="og:description" content="" />
-          <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg" />
+          <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2ttgDzcqDq9DDq4KY9p5ie2zEj_dN-DzTjPyqPvX7t5Dz_9TI3cPziDd2_jp3__RkgRjDZpZCibMBhH-CNYtqNvwjb0ZqlSJs468-smVPNT4FrudYA1ivOJH_Fp1WsMk8qOcAoaUC2oANmV5uVoyOtyOKRKj6HovG7R0G29nT7eyj_bymJZaIf1BCy01B/w400-h225/edited_thumbnail%20(1)%20(1).png" />
           <meta property="og:url" content="https://screeninsiderhub.blogspot.com" />
           <meta property="og:image:alt" content="" />
           <script>
