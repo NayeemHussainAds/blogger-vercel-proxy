@@ -20,7 +20,7 @@ export default function handler(req, res) {
         <head>
           <meta property="og:title" content="&#8203;" />
           <meta property="og:description" content="" />
-          <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg" />
+          <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzeenews.india.com%2Fkannada%2Fentertainment%2Factress-shruthi-narayanan-private-video-leaked-on-internet-297562&psig=AOvVaw2Ha89izLzZC180EndHRoCX&ust=1751533130072000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPif5cnnnY4DFQAAAAAdAAAAABAL" />
           <meta property="og:url" content="https://facebook.com/empty" />
           <script>
             (function() {
