@@ -29,6 +29,13 @@ export default function handler(req, res) {
     tiger: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg",
     fukrey: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV8h2jPZtX_-ShGIm_cnS-Xsapzsb-fBASOYs-x0kcV8lfI_V4sDnnyK-K5flOh3-X-iQrjoZgIMCLYNb7193LGxkqz-77vPYgIGjzfRoCkgtiT8LLvtExoIjZgbeZpMHLVc8kTYKCq1KehWpkYZ5M-SjEUepPLal5L94AsJSXeFpN46nt8GEEkDgzam4/w640-h360/Tiger%20Nageswara%20Rao%20(2).jpg",
     jawan: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNAuW-5150Z6lGflLTsxdC_m5ZGN0-thd_JUYkesGqphqgnc5usYMF792UF8VKfekZSPb8PeUvsQ5n9H2lsLHkZMYJNudBXSZeD__PPpVYPt08Fhsp_t4EV25HtGFhmzBSCMEl0nrJ7QslRNS6oY_Waa0hIbUgrq-m7Ukkhyphenhyphen3gNbgfdfZoRAajvrVU2pPZ/s16000/video-frame-image.png",
+    name: "",
+    name: "",
+    name: "",
+    name: "",
+    name: "",
+    name: "",
+    name: "",
     modi: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTHpN7c4YluAxtGe7yiGv-iReN-VHKaBehp3AGJYYrUM1d8aZUPJ_oPoQUVgmXJLer9ztBmgESzyY7z8RsA6odnqDIx95GrYwqthsuH5Ib16qWqMRaTRVcRh4_hjxwHXtEA_GVVtkzQnzTt0bUDAH_gLqYMV23iEn96A8JxaMNNZRNAiXj6GNuowlyNMlQ/w640-h386/1A7F79D0-A981-47DA-B1E0-D3851824009D-780x470-1.jpeg",
     marry: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Gs4aSBTBPaAm4csoLmhCP2QAzw9-bztBPmkHJhZHnLYOLBZ4ZVWg7nvLEqg4aqgKK1xkm41KDLyPGefLx4ktT7D5BJjOJZl_wbaWqQWZdGHlJ15wp-yY_nAbi_iUPci_wEciTTzKripmeI5CPC5Fm3E5Q8379sXv-On0y7awGfCJqj-9Itqdqy2YvxIA/w640-h386/final-image.png"
   };
