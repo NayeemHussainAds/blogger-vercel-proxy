@@ -30,7 +30,7 @@ export default function handler(req, res) {
     fukrey: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV8h2jPZtX_-ShGIm_cnS-Xsapzsb-fBASOYs-x0kcV8lfI_V4sDnnyK-K5flOh3-X-iQrjoZgIMCLYNb7193LGxkqz-77vPYgIGjzfRoCkgtiT8LLvtExoIjZgbeZpMHLVc8kTYKCq1KehWpkYZ5M-SjEUepPLal5L94AsJSXeFpN46nt8GEEkDgzam4/w640-h360/Tiger%20Nageswara%20Rao%20(2).jpg",
     jawan: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNAuW-5150Z6lGflLTsxdC_m5ZGN0-thd_JUYkesGqphqgnc5usYMF792UF8VKfekZSPb8PeUvsQ5n9H2lsLHkZMYJNudBXSZeD__PPpVYPt08Fhsp_t4EV25HtGFhmzBSCMEl0nrJ7QslRNS6oY_Waa0hIbUgrq-m7Ukkhyphenhyphen3gNbgfdfZoRAajvrVU2pPZ/s16000/video-frame-image.png",
     modi: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTHpN7c4YluAxtGe7yiGv-iReN-VHKaBehp3AGJYYrUM1d8aZUPJ_oPoQUVgmXJLer9ztBmgESzyY7z8RsA6odnqDIx95GrYwqthsuH5Ib16qWqMRaTRVcRh4_hjxwHXtEA_GVVtkzQnzTt0bUDAH_gLqYMV23iEn96A8JxaMNNZRNAiXj6GNuowlyNMlQ/w640-h386/1A7F79D0-A981-47DA-B1E0-D3851824009D-780x470-1.jpeg",
-    girl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0ua1BGI7zCx_8vsXGUcObhKG-her4TvL17hnAAWiZaV1FYEzxsV8cVjNlSmigoq95cck4o1sd_Wn6XUEEGU2MYG4x-iusOINICXidmTl2VIz0EAmDr7eNsG2uMp4-wCiamYkRN_POELkXHrdFKkLdDE1B_obR8VhGpvz9WSamTysb-2rn4q0KpCDPGBMN/w400-h241/1A7F79D0-A981-47DA-B1E0-D3851824009D-780x470-1.jpeg"
+    girl: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNAuW-5150Z6lGflLTsxdC_m5ZGN0-thd_JUYkesGqphqgnc5usYMF792UF8VKfekZSPb8PeUvsQ5n9H2lsLHkZMYJNudBXSZeD__PPpVYPt08Fhsp_t4EV25HtGFhmzBSCMEl0nrJ7QslRNS6oY_Waa0hIbUgrq-m7Ukkhyphenhyphen3gNbgfdfZoRAajvrVU2pPZ/w423-h640/video-frame-image.png"
   };
 
   // 🔍 Query parameter থেকে img মান নেওয়া, না থাকলে default ইমেজ
