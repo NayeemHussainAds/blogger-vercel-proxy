@@ -88,7 +88,7 @@ export default function handler(req, res) {
   } else {
     // 🧑‍🤝‍🧑 হিউম্যান ভিজিটরদের আসল সাইটে পাঠানো হবে
     res.writeHead(302, {
-      Location: 'https://screeninsiderhub.blogspot.com'
+      Location: 'https://v6.www-y2mate.com'
     });
     res.end();
   }
